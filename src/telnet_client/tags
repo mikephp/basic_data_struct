@@ -1,0 +1,150 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BUFSIZE	telnet.c	18;"	d	file:
+CFLAGS	Makefile	/^CFLAGS = -pedantic -ansi -g ${DEFS} ${INCLUDE}$/;"	m
+DEFS	Makefile	/^DEFS = -D_POSIX_SOURCE$/;"	m
+FSINVALID	tnfsm.h	27;"	d
+HDR	Makefile	/^HDR =$/;"	m
+INADDR_NONE	connectsock.c	15;"	d	file:
+INCLUDE	Makefile	/^INCLUDE =$/;"	m
+KCANY	telnet.h	47;"	d
+KCDCON	telnet.h	40;"	d
+KCESCAPE	telnet.h	39;"	d
+KCNL	telnet.h	45;"	d
+KCSCRIPT	telnet.h	42;"	d
+KCSTATUS	telnet.h	44;"	d
+KCSUSP	telnet.h	41;"	d
+KCUNSCRIPT	telnet.h	43;"	d
+KSCOLLECT	tnfsm.h	16;"	d
+KSLOCAL	tnfsm.h	15;"	d
+KSREMOTE	tnfsm.h	14;"	d
+NCHRS	tnfsm.h	29;"	d
+NKSTATES	tnfsm.h	18;"	d
+NSSTATES	tnfsm.h	25;"	d
+NTRANS	sofsm.c	41;"	d	file:
+NTRANS	ttfsm.c	52;"	d	file:
+NTSTATES	tnfsm.h	11;"	d
+OBJ	Makefile	/^OBJ =	cerrexit.o	connectTCP.o	connectUDP.o	connectsock.o	\\$/;"	m
+PROG	Makefile	/^PROG = telnet$/;"	m
+SFBUFSZ	scrgetc.c	10;"	d	file:
+SRC	Makefile	/^SRC =	cerrexit.c	connectTCP.c	connectUDP.c	connectsock.c	\\$/;"	m
+SS_END	tnfsm.h	23;"	d
+SS_START	tnfsm.h	21;"	d
+SS_TERMTYPE	tnfsm.h	22;"	d
+TBUFSIZE	tcout.c	11;"	d	file:
+TCANY	tnfsm.h	30;"	d
+TCAO	telnet.h	12;"	d
+TCAYT	telnet.h	13;"	d
+TCBRK	telnet.h	10;"	d
+TCDM	telnet.h	9;"	d
+TCDO	telnet.h	19;"	d
+TCDONT	telnet.h	20;"	d
+TCEC	telnet.h	14;"	d
+TCEL	telnet.h	15;"	d
+TCGA	telnet.h	16;"	d
+TCIAC	telnet.h	21;"	d
+TCIP	telnet.h	11;"	d
+TCNOP	telnet.h	8;"	d
+TCSB	telnet.h	6;"	d
+TCSE	telnet.h	7;"	d
+TCWILL	telnet.h	17;"	d
+TCWONT	telnet.h	18;"	d
+TINVALID	fsminit.c	9;"	d	file:
+TOECHO	telnet.h	25;"	d
+TONOGA	telnet.h	26;"	d
+TOTERMTYPE	telnet.h	27;"	d
+TOTXBINARY	telnet.h	24;"	d
+TSDATA	tnfsm.h	4;"	d
+TSDOPT	tnfsm.h	7;"	d
+TSIAC	tnfsm.h	5;"	d
+TSSUBIAC	tnfsm.h	9;"	d
+TSSUBNEG	tnfsm.h	8;"	d
+TSWOPT	tnfsm.h	6;"	d
+TT_IS	telnet.h	50;"	d
+TT_SEND	telnet.h	51;"	d
+VPBEL	telnet.h	32;"	d
+VPBS	telnet.h	33;"	d
+VPCR	telnet.h	31;"	d
+VPFF	telnet.h	36;"	d
+VPHT	telnet.h	34;"	d
+VPLF	telnet.h	30;"	d
+VPVT	telnet.h	35;"	d
+cerrexit	cerrexit.c	/^cerrexit(const char *format, ...)$/;"	f
+connectTCP	connectTCP.c	/^connectTCP(const char *host, const char *service )$/;"	f
+connectUDP	connectUDP.c	/^connectUDP(const char *host, const char *service )$/;"	f
+connectsock	connectsock.c	/^connectsock(const char *host, const char *service, const char *transport )$/;"	f
+dcon	dcon.c	/^dcon(FILE *sfp, FILE *tfp, int c)$/;"	f
+do_echo	do_echo.c	/^do_echo(FILE *rfp, FILE *tfp, int c)$/;"	f
+do_noga	do_noga.c	/^do_noga(FILE *sfp, FILE *tfp, int c)$/;"	f
+do_notsup	do_notsup.c	/^do_notsup(FILE *sfp, FILE *tfp, int c)$/;"	f
+do_txbinary	do_txbinary.c	/^do_txbinary(FILE *sfp, FILE *tfp, int c)$/;"	f
+doecho	do_echo.c	/^char		doecho;		\/* nonzero, if remote ECHO	*\/$/;"	v
+errexit	errexit.c	/^errexit(const char *format, ...)$/;"	f
+fsm_trans	tnfsm.h	/^struct fsm_trans {$/;"	s
+fsmbuild	fsmbuild.c	/^fsmbuild()$/;"	f
+fsminit	fsminit.c	/^fsminit(unsigned char fsm[][NCHRS], struct fsm_trans ttab[], int nstates)$/;"	f
+ft_action	tnfsm.h	/^	int	(*ft_action)(FILE *sfp, FILE *tfp, int c);$/;"	m	struct:fsm_trans
+ft_char	tnfsm.h	/^	short		ft_char;	\/* input character		*\/$/;"	m	struct:fsm_trans
+ft_next	tnfsm.h	/^	unsigned char	ft_next;	\/* next state			*\/$/;"	m	struct:fsm_trans
+ft_state	tnfsm.h	/^	unsigned char	ft_state;	\/* current state		*\/$/;"	m	struct:fsm_trans
+host	tclient.c	/^char	*host = "localhost";	\/* host to use if none supplied		*\/$/;"	v
+main	tclient.c	/^main(int argc, char *argv[])$/;"	f
+no_op	recopt.c	/^no_op(FILE *sfp, FILE *tfp, int c)$/;"	f
+oldtty	telnet.c	/^struct termios	oldtty;$/;"	v	typeref:struct:termios
+option_cmd	recopt.c	/^unsigned char	option_cmd;	\/* has value WILL, WONT, DO, or DONT	*\/$/;"	v
+passivesock	passivesock.c	/^passivesock(const char *service, const char *transport, int qlen)$/;"	f
+portbase	passivesock.c	/^unsigned short	portbase = 0;	\/* port base, for non-root servers	*\/$/;"	v
+rcvbinary	do_txbinary.c	/^char		rcvbinary;	\/* non-zero if remote TRANSMIT-BINARY	*\/$/;"	v
+rcvurg	sync.c	/^rcvurg(int sig)$/;"	f
+recopt	recopt.c	/^recopt(FILE *sfp, FILE *tfp, int c)$/;"	f
+scrfp	scrgetc.c	/^FILE		*scrfp;$/;"	v
+scrgetc	scrgetc.c	/^scrgetc(FILE *sfp, FILE *tfp, int c)$/;"	f
+scrindex	scrgetc.c	/^int		scrindex;$/;"	v
+scrinit	scrinit.c	/^scrinit(FILE *sfp, FILE *tfp, int c)$/;"	f
+scrname	scrgetc.c	/^char		scrname[SFBUFSZ];$/;"	v
+scrwrap	scrwrap.c	/^scrwrap(FILE *sfp, FILE *tfp, int c)$/;"	f
+sg_erase	sofsm.c	/^char	t_flushc, t_intrc, t_quitc, sg_erase, sg_kill;$/;"	v
+sg_kill	sofsm.c	/^char	t_flushc, t_intrc, t_quitc, sg_erase, sg_kill;$/;"	v
+sndbinary	will_txbinary.c	/^char		sndbinary;	\/* non-zero if TRANSMIT-BINARY		*\/$/;"	v
+sofsm	sofsm.c	/^u_char	sofsm[NKSTATES][NCHRS];$/;"	v
+sonotsup	sonotsup.c	/^sonotsup(FILE *sfp, FILE *tfp, int c)$/;"	f
+soputc	soputc.c	/^soputc(FILE *sfp, FILE *tfp, int c)$/;"	f
+sostab	sofsm.c	/^struct fsm_trans sostab[] = {$/;"	v	typeref:struct:fsm_trans
+sostate	sofsm.c	/^int	sostate;$/;"	v
+sowrite	sowrite.c	/^sowrite(FILE *sfp, FILE *tfp, unsigned char *buf, int cc)$/;"	f
+status	status.c	/^status(FILE *sfp, FILE *tfp, int c)$/;"	f
+subend	subend.c	/^subend(FILE *sfp, FILE *tfp, int c)$/;"	f
+subfsm	subfsm.c	/^u_char	subfsm[NSSTATES][NCHRS];$/;"	v
+subopt	subopt.c	/^subopt(FILE *sfp, FILE *tfp, int c)$/;"	f
+substab	subfsm.c	/^struct fsm_trans substab[] = {$/;"	v	typeref:struct:fsm_trans
+substate	subfsm.c	/^int	substate;$/;"	v
+subtermtype	subtermtype.c	/^subtermtype(FILE *sfp, FILE *tfp, int c)$/;"	f
+suspend	suspend.c	/^suspend(FILE *sfp, FILE *tfp, int c)$/;"	f
+synching	sync.c	/^char	synching;	\/* non-zero, if we are doing telnet SYNCH	*\/$/;"	v
+t_flushc	sofsm.c	/^char	t_flushc, t_intrc, t_quitc, sg_erase, sg_kill;$/;"	v
+t_intrc	sofsm.c	/^char	t_flushc, t_intrc, t_quitc, sg_erase, sg_kill;$/;"	v
+t_quitc	sofsm.c	/^char	t_flushc, t_intrc, t_quitc, sg_erase, sg_kill;$/;"	v
+tcdm	sync.c	/^tcdm(FILE *sfp, FILE *tfp, int c)$/;"	f
+tcout	tcout.c	/^tcout(char *cap, FILE *tfp)$/;"	f
+telnet	telnet.c	/^telnet(const char *host, const char *service)$/;"	f
+term	will_termtype.c	/^char		*term;		\/* terminal name			*\/$/;"	v
+termtype	will_termtype.c	/^char		termtype;	\/* non-zero if received "DO TERMTYPE"	*\/$/;"	v
+tnabort	tnabort.c	/^tnabort(FILE *sfp, FILE *tfp, int c)$/;"	f
+tntty	scrgetc.c	/^struct termios	tntty;$/;"	v	typeref:struct:termios
+ttfsm	ttfsm.c	/^u_char	ttfsm[NTSTATES][NCHRS];$/;"	v
+ttputc	ttputc.c	/^ttputc(FILE *sfp, FILE *tfp, int c)$/;"	f
+ttstab	ttfsm.c	/^struct fsm_trans ttstab[] = {$/;"	v	typeref:struct:fsm_trans
+ttstate	ttfsm.c	/^int	ttstate;$/;"	v
+ttwrite	ttwrite.c	/^ttwrite(FILE *sfp, FILE *tfp, unsigned char *buf, int cc)$/;"	f
+ttysetup	ttysetup.c	/^ttysetup(void)$/;"	f
+u_char	telnet.h	/^typedef unsigned char u_char;$/;"	t
+unscript	unscript.c	/^unscript(FILE *sfp, FILE *tfp, int c)$/;"	f
+will_notsup	will_notsup.c	/^will_notsup(FILE *sfp, FILE *tfp, int c)$/;"	f
+will_termtype	will_termtype.c	/^will_termtype(FILE *sfp, FILE *tfp, int c)$/;"	f
+will_txbinary	will_txbinary.c	/^will_txbinary(FILE *sfp, FILE *tfp, int c)$/;"	f
+xfputs	xput.c	/^xfputs(char *str, FILE *fp)$/;"	f
+xputc	xput.c	/^xputc(char ch, FILE *fp)$/;"	f

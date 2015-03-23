@@ -1,0 +1,49 @@
+	Read this file,then you'll know how to call call_telnet_api.
+
+	Test program is tclient.c,which the main function call some
+call_telnet_api APIs to realize get_port_stat and set_port_vlan 
+function.The hand-by-hand tutorials are fellowing below.
+
+	1.	Fast virification.	
+	2.	Call_telent_api states.
+
+		1.1
+			Do the fllowing shell script in the root telnet_client
+			dir.
+
+			make
+			./telnet_autoclient ip 
+			
+			then you'll get the test results.
+
+		2.1
+			2.1.0
+				Init envirenment codes are int the below.Make sure you have
+		include head file "call_telnet_api.h".
+                init_telnet(host,port);
+		
+			2.1.1
+				function add_port_vlan(char *setport,int vlanid)
+
+				setport :eg:"GigabitEthernet 1/0/12"
+				vlanid :vlan id
+
+			2.1.2
+				function get_port_stat(char *getport,PT *result)
+				
+				getport :eg:"display interface GigabitEthernet 1/0/12"
+				vlanid :vlan id
+
+			2.1.3
+				function del_port_vlan(char *getport,int vlanid)
+				
+				getport :eg:"display interface GigabitEthernet 1/0/12"
+				vlanid :vlan id
+
+			2.1.4
+				function telnet_quit()
+
+				quit telnet connect.
+
+ATTION: you must give a right string to the function argument setport/getport
+		other you'll not get the right resutl.

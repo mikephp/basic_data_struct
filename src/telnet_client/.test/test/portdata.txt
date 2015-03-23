@@ -1,0 +1,42 @@
+display interface Ten-GigabitEthernet 1/0/30
+ Ten-GigabitEthernet1/0/30 current state: UP
+ IP Packet Frame Type: PKTFMT_ETHNT_2, Hardware Address: 70ba-ef64-9f06
+ Description: Ten-GigabitEthernet1/0/30 Interface
+ Loopback is not set
+ Media type is optical fiber,Port hardware type is 10G_BASE_SR_SFP
+ 10Gbps-speed mode, full-duplex mode
+ Link speed type is autonegotiation, link duplex type is autonegotiation
+ Flow-control is not enabled
+ The Maximum Frame Length is 12288
+ Broadcast MAX-ratio: 100%
+ Unicast MAX-ratio: 100%
+ Multicast MAX-ratio: 100%
+ Allow jumbo frame to pass
+ PVID: 2002
+ Port link-type: trunk
+  VLAN passing  : 100, 200, 2002
+  VLAN permitted: 100, 200, 2002
+  Trunk port encapsulation: IEEE 802.1q
+ Port priority: 0
+ Last clearing of counters:   0:46:19 Tue 05/02/2000
+ Peak value of input: 0 bytes/sec, at 2000-05-02 00:46:21
+ Peak value of output: 14 bytes/sec, at 2000-05-02 00:51:21
+ Last 300 seconds input:  0 packets/sec 0 bytes/sec 0%
+  ---- More ----[16D                [16D Last 300 seconds output:  0 packets/sec 14 bytes/sec 0%
+ Input (total):  0 packets, 0 bytes
+	 0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+	 0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+	 0 CRC, 0 frame, - overruns, 0 aborts
+	 - ignored, - parity errors
+ Output (total): 7509 packets, 2175107 bytes
+	 0 unicasts, 0 broadcasts, 7509 multicasts, 0 pauses
+ Output (normal): 7509 packets, - bytes
+	 0 unicasts, 0 broadcasts, 7509 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+	 0 aborts, 0 deferred, 0 collisions, 0 late collisions
+	 0 lost carrier, - no carrier
+
+[chanct-1]
+[chanct-1]

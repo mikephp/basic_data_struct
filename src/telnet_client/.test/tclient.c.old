@@ -1,0 +1,61 @@
+/* tclient.c - main */
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include "port.h" //define port struct PT
+char	*host = "localhost";	/* host to use if none supplied		*/
+
+int	errexit(const char *format, ...);
+int 	telnet(const char *host, int port,int task,FILE *outfp);
+
+/*------------------------------------------------------------------------
+ * main - TCP client for TELNET service
+ *------------------------------------------------------------------------
+ */
+int sw_ifstat();
+int sw_ifstat(FILE *fp,PT *tmp);
+
+int
+main(int argc, char *argv[])
+{
+//	char	*service = "telnet";	/* default service name		*/
+	char	buf[1024];
+	int cc;
+	int		port = 23;
+	int task=0;PT* head;
+	head = (PT*)malloc(sizeof(PT));
+	FILE *outfp = fopen("out.txt","w+");
+//	FILE *sfp;
+	switch (argc) {
+	case 1:	break;
+	case 3:
+		port = atoi(argv[2]);
+		/* FALL THROUGH */
+	case 2:
+		host = argv[1];
+		break;
+	default:
+		errexit("usage: telnet [host [port]]\n");
+	}
+	telnet(host, port,0,outfp);
+	//if(0==fseek(outfp,0L,SEEK_SET))printf("fseek ok\n");
+	sw_ifstat(outfp,head);//output are in the link table head 
+
+    
+    sw_vlanset(dk,vlan);
+	telnet(host,port,1,outfp);
+     // test if sw_ifstat is ok **
+	PT * cur;
+	cur=head->next;
+	for(cc=0;cc<6;cc++){
+		printf("%s \t %ld \t %ld\n",cur->port_name,cur->port_out,cur->port_out_sin);
+		cur=cur->next;
+		}
+
+	fclose(outfp);
+	exit(0);
+}
+

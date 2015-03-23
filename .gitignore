@@ -1,0 +1,9 @@
+bin
+*.suo
+obj
+*.o
+*.so
+*.a
+*.exe
+lib
+libs

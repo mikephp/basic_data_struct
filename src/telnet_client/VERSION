@@ -1,0 +1,16 @@
+Version : telnet_client 2.9.0
+feature : default debug off.
+		if you want to debug,just go to file telnet.c and
+		define "debug".annotate "#undef debug"
+		has two pthreads,one is the main,other is used to
+	run telnet.
+		tclient.c are the test program
+		after you execute shell command "make"
+		then you'll get a program telnet_autoclient
+		do "./telnet_autoclient 123.12.3.23"
+		to get a port statistics.
+		"123.12.3.23" is your switch IP 
+
+
+add function
+	close a pthread ,which is used to communicate with switch.

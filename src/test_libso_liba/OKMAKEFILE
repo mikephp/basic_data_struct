@@ -1,16 +1,15 @@
 #*****************************************************************************
-# Copyright        :  @mikephp
-# Author           :   mikephp
-# Date             :   2015/03/30
-# Version          :   1.0.0
-# Description      :   动态链接库,静态链接库 示例.
+# Copyright        :  
+# Author           :   ljy
+# Date             :   2015-03-30
+# Version           :   Demo1 动态链接库
+# Description       :   Demo
 #****************************************************************************/
-PWD=$(shell pwd)
 SHELL = /bin/sh
-LIB_DIR = $(PWD)/lib/
-BIN_DIR = $(PWD)/bin/
-OBJECT_DIR = $(PWD)/obj/
-APP_DIR = $(PWD)/
+LIB_DIR = /home/ljy/tmp/ctest/test/lib/
+BIN_DIR = /home/ljy/tmp/ctest/test/bin/
+OBJECT_DIR = /home/ljy/tmp/ctest/test/obj/
+APP_DIR = /home/ljy/tmp/ctest/test/
 $(shell mkdir -p ${LIB_DIR})
 $(shell mkdir -p ${BIN_DIR})
 $(shell mkdir -p ${OBJECT_DIR})
@@ -41,6 +40,7 @@ $(OBJECT):$(SRC_OBJECT) $(H_OBJECT)
 	$(CC) $(FPIC) $(SRC_OBJECT)
 
 $(BIN_OBJECT):$(DY_OBJECT)
+#	$(CC) $(OBJECT_DIR)$(DY_OBJECT) -L$(LIB_DIR) -ltest -o $(BIN_OBJECT)
 	$(CC) $(OBJECT_DIR)$(DY_OBJECT) -L$(LIB_DIR) -ltest -o $(BIN_OBJECT)
 	mv $(BIN_OBJECT) $(BIN_DIR)
 
@@ -50,4 +50,4 @@ $(DY_OBJECT):$(DY_SRC_OBJECT)
 
 .PHONY:clean 
 clean:
-	$(RM) $(LIB_DIR) $(BIN_DIR) $(OBJECT_DIR)
+	$(RM) $(LIB_DIR) $(BIN_DIR) $(OBJECT_DIR)  *.o

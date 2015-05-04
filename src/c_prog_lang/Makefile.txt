@@ -1,0 +1,38 @@
+OUTPUT                = ./debug
+SOURCES         = $(wildcard ./*.c)  $(wildcard ../src2/*.c)
+DIR_OBJS        = $(patsubst %.c,%.o,$(SOURCES))
+OBJS_NAME        = $(notdir $(patsubst %.c,%.o,$(SOURCES)))
+OBJS          = $(addprefix $(OUTPUT)/,$(notdir $(patsubst %.c,%.o,$(SOURCES)))) 
+LDFLAGS                +=
+
+#vpath 方式2需要
+vpath %.c $(addsuffix :,$(dir $(patsubst %.c,%.o,$(SOURCES)))))
+
+
+all: $(TARGET)
+
+$(TARGET):$(OUTPUT) $(OBJS)
+        $(CC) $(OBJS) $(LDFLAGS) -o $(TARGET)
+
+方法1：
+
+$(OBJS):$(SOURCES)
+        $(CC) $(CFLAGS) -o $@ -c $(filter %$(*F).c,$(SOURCES))        
+#该方式，有一个缺点，就是依赖于每一个src,只要一个src更改了，都会导致所有.o都需要重新依赖；
+
+# 方式2
+$(OBJS):$(OBJS_NAME)
+        cp $(*F).o $(OUTPUT)/
+##若此时目标(objs_name)带路径，则.c搜索无法使用指定的搜索路径
+$(OBJS_NAME): %.o : %.c
+        $(CC) $(CFLAGS) -o $(OUTPUT)/$@ -c $<
+#该方式，如果生成的.o带上路径，则.c就无法通过vpath指定的路径搜索.c，就会直接到指定的.o所在目录搜索，如果用这种方式，那么makefile所在的.o的方式太多了..
+
+# 方式3
+$(OBJS):$(DIR_OBJS)
+#
+$(DIR_OBJS):%.o : %.c
+        $(CC) $(CFLAGS) -o $@ -c  $<
+        mv $@ ./debug/        
+
+#该方式,如果src下的.o已经存在（dir_objs），那么就不会重新编译，要假设环境...

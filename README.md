@@ -1,2 +1,2 @@
-# basic_data_structure
-basic data structure 
+# basic_data_struct
+basic data struct 

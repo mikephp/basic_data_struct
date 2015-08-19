@@ -1,0 +1,21 @@
+ 
+This file contains the code from "WinSockÍøÂç±à³Ì¾­Âç" by Huiyong Zhang, 
+and is covered under the copyright and warranty notices in that book. 
+Permission is granted for this code to be used for educational purposes 
+in association with the text,and for other uses not covered by copyright 
+laws, provided that the following notice is included with the code:
+  "This code is from "WinSockÍøÂç±à³Ì¾­Âç" by Huiyong Zhang."
+Commercial uses of this code require the explicit written permission of 
+the author. Send your request for permission, stating clearly what code 
+you would like to use, and in what specific way, to: zhang.huiyong@yahoo.com.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+   Huiyong Zhang
+   <zhang.huiyong@yahoo.com> 

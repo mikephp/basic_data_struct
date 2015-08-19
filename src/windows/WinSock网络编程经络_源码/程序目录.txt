@@ -1,0 +1,64 @@
+
+《WinSock网络编程经络》每章示例程序列表:
+
+第 1 章
+TEchoClnt
+TEchoSrv
+
+第 3  章
+Checksum
+
+第 11 章
+HostEndian
+NetConvt
+
+第 12 章
+Lookup
+GetServ
+GetProto
+
+第 13 章
+AsyncHost
+QueryInfo
+
+第 14 章
+SocBind
+DaytimeClnt
+DaytimeSrv
+
+第 16 章
+WebSrv
+WebClnt
+
+第 17 章
+Ping
+
+第 18 章
+Trace
+
+第 19 章
+MsgSndSrv
+MsgSndClnt
+
+第 20 章
+GetSockOpt
+RawEcho
+UEchoSrv
+
+第 21 章
+BootpSrv
+BootpClnt
+
+第 22 章
+SntpSrv
+SntpClnt
+
+第 23 章
+FingerSrv
+FingerClnt
+
+第 25 章
+第 26 章 
+FtpClnt
+
+

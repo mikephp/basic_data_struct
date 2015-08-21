@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: http - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP124.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/http.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\网络安全开发包详解代码\第7章\7.4.3\http.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP124.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP125.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/http.pdb" /debug /machine:I386 /out:"Debug/http.exe" /pdbtype:sept 
+".\Debug\http.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP125.tmp"
+<h3>Output Window</h3>
+Compiling...
+http.c
+C:\Documents and Settings\Administrator\桌面\网络安全开发包详解代码\第7章\7.4.3\http.c(57) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\网络安全开发包详解代码\第7章\7.4.3\http.c(128) : warning C4018: '==' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\网络安全开发包详解代码\第7章\7.4.3\http.c(41) : warning C4101: 'str3' : unreferenced local variable
+C:\Documents and Settings\Administrator\桌面\网络安全开发包详解代码\第7章\7.4.3\http.c(163) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\网络安全开发包详解代码\第7章\7.4.3\http.c(235) : warning C4018: '==' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\网络安全开发包详解代码\第7章\7.4.3\http.c(240) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\网络安全开发包详解代码\第7章\7.4.3\http.c(260) : warning C4101: 'content_urgent' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+http.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

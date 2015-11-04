@@ -1,0 +1,120 @@
+﻿生成启动时间为 2015/8/27 15:03:31。
+     1>项目“D:\git\src\windows\21840307lspTEST\lsp\ifslsp\spi.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\spi.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt extension.cpp lspguid.cpp sockinfo.cpp spi.cpp
+         spi.cpp
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(74): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(74): error C2065: “lspProvider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(75): error C2062: 意外的类型“int”
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(157): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(157): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2275: “SOCKET”: 将此类型用作表达式非法
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(118) : 参见“SOCKET”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2146: 语法错误: 缺少“)”(在标识符“Socket”的前面)
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2078: 初始值设定项太多
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2275: “SOCKET”: 将此类型用作表达式非法
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(118) : 参见“SOCKET”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(160): error C2059: 语法错误:“)”
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(165): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(165): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2065: “Context”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2275: “SOCKET_CONTEXT”: 将此类型用作表达式非法
+                 d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(58) : 参见“SOCKET_CONTEXT”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2182: “FreeSocketContext”: 非法使用“void”类型
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2078: 初始值设定项太多
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(172): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): error C2182: “FreeSocketContextList”: 非法使用“void”类型
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         sockinfo.cpp
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(74): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(74): error C2065: “lspProvider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(75): error C2062: 意外的类型“int”
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(157): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(157): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2275: “SOCKET”: 将此类型用作表达式非法
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(118) : 参见“SOCKET”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2146: 语法错误: 缺少“)”(在标识符“Socket”的前面)
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2078: 初始值设定项太多
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2275: “SOCKET”: 将此类型用作表达式非法
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(118) : 参见“SOCKET”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(160): error C2059: 语法错误:“)”
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(165): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(165): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2065: “Context”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2275: “SOCKET_CONTEXT”: 将此类型用作表达式非法
+                 d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(58) : 参见“SOCKET_CONTEXT”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2182: “FreeSocketContext”: 非法使用“void”类型
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2078: 初始值设定项太多
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(172): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): error C2182: “FreeSocketContextList”: 非法使用“void”类型
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         lspguid.cpp
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(74): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(74): error C2065: “lspProvider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(75): error C2062: 意外的类型“int”
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(157): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(157): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2275: “SOCKET”: 将此类型用作表达式非法
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(118) : 参见“SOCKET”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2146: 语法错误: 缺少“)”(在标识符“Socket”的前面)
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2078: 初始值设定项太多
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2275: “SOCKET”: 将此类型用作表达式非法
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(118) : 参见“SOCKET”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(160): error C2059: 语法错误:“)”
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(165): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(165): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2065: “Context”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2275: “SOCKET_CONTEXT”: 将此类型用作表达式非法
+                 d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(58) : 参见“SOCKET_CONTEXT”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2182: “FreeSocketContext”: 非法使用“void”类型
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2078: 初始值设定项太多
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(172): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): error C2182: “FreeSocketContextList”: 非法使用“void”类型
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         extension.cpp
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(74): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(74): error C2065: “lspProvider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(75): error C2062: 意外的类型“int”
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(157): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(157): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2275: “SOCKET”: 将此类型用作表达式非法
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(118) : 参见“SOCKET”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2146: 语法错误: 缺少“)”(在标识符“Socket”的前面)
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2078: 初始值设定项太多
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(158): error C2275: “SOCKET”: 将此类型用作表达式非法
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(118) : 参见“SOCKET”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(160): error C2059: 语法错误:“)”
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(165): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(165): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2065: “Context”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2275: “SOCKET_CONTEXT”: 将此类型用作表达式非法
+                 d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(58) : 参见“SOCKET_CONTEXT”的声明
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2182: “FreeSocketContext”: 非法使用“void”类型
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(167): error C2078: 初始值设定项太多
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(172): error C2065: “PROVIDER”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): error C2065: “Provider”: 未声明的标识符
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): error C2182: “FreeSocketContextList”: 非法使用“void”类型
+     1>d:\git\src\windows\21840307lsptest\lsp\ifslsp\lspdef.h(173): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         正在生成代码...
+     1>已完成生成项目“D:\git\src\windows\21840307lspTEST\lsp\ifslsp\spi.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.43

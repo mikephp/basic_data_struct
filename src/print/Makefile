@@ -6,11 +6,10 @@ FILE_SUFFIX = c
 SRCS := $(wildcard *.$(FILE_SUFFIX))
 EXES := test 
 
-.PHONY:all
+.PHONY:all clean
 all:$(EXES)
 $(EXES): $(SRCS)
 	$(CC) $(CFLAGS) $^ -o $@
 
-.PHONY:clean
 clean:
 	rm -rf $(EXES) *.o

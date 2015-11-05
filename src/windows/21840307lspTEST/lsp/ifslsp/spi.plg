@@ -1,0 +1,148 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: spi - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP75.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/spi.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp"
+"H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspguid.cpp"
+"H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp"
+"H:\WinSock LSP Sample\lspSample\lsp\ifslsp\spi.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP75.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP76.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/spi.pdb" /machine:I386 /out:"Release/spi.exe" 
+".\Release\extension.obj"
+".\Release\lspguid.obj"
+".\Release\sockinfo.obj"
+".\Release\spi.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP76.tmp"
+<h3>Output Window</h3>
+Compiling...
+extension.cpp
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2143: syntax error : missing ';' before '*'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2501: 'PROVIDER' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2501: 'Provider' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(74) : error C2065: 'PROVIDER' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(74) : error C2065: 'lspProvider' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(75) : error C2062: type 'int' unexpected
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(157) : error C2061: syntax error : identifier 'PROVIDER'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(165) : error C2065: 'Provider' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2065: 'Context' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2275: 'SOCKET_CONTEXT' : illegal use of this type as an expression
+        H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(58) : see declaration of 'SOCKET_CONTEXT'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2182: 'FreeSocketContext' : illegal use of type 'void'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2078: too many initializers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(173) : error C2182: 'FreeSocketContextList' : illegal use of type 'void'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(200) : error C2143: syntax error : missing ';' before '*'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(200) : error C2501: 'gLayerInfo' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(62) : error C2065: 'dbgprint' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(108) : error C2039: 'Provider' : is not a member of '_SOCKET_CONTEXT'
+        H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(45) : see declaration of '_SOCKET_CONTEXT'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(108) : error C2227: left of '->NextProcTableExt' must point to class/struct/union
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(108) : error C2228: left of '.lpfnConnectEx' must have class/struct/union type
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(113) : error C2039: 'Provider' : is not a member of '_SOCKET_CONTEXT'
+        H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(45) : see declaration of '_SOCKET_CONTEXT'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(113) : error C2227: left of '->NextProcTableExt' must point to class/struct/union
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(113) : error C2228: left of '.lpfnConnectEx' must have class/struct/union type
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(115) : error C2039: 'Provider' : is not a member of '_SOCKET_CONTEXT'
+        H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(45) : see declaration of '_SOCKET_CONTEXT'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(115) : error C2227: left of '->NextProcTable' must point to class/struct/union
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(115) : error C2228: left of '.lpWSPIoctl' must have class/struct/union type
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(129) : error C2039: 'Provider' : is not a member of '_SOCKET_CONTEXT'
+        H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(45) : see declaration of '_SOCKET_CONTEXT'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(129) : error C2227: left of '->NextProcTableExt' must point to class/struct/union
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\extension.cpp(129) : error C2228: left of '.lpfnConnectEx' must have class/struct/union type
+lspguid.cpp
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2143: syntax error : missing ';' before '*'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2501: 'PROVIDER' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2501: 'Provider' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(74) : error C2065: 'PROVIDER' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(74) : error C2065: 'lspProvider' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(75) : error C2062: type 'int' unexpected
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(157) : error C2061: syntax error : identifier 'PROVIDER'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(165) : error C2065: 'Provider' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2065: 'Context' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2275: 'SOCKET_CONTEXT' : illegal use of this type as an expression
+        H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(58) : see declaration of 'SOCKET_CONTEXT'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2182: 'FreeSocketContext' : illegal use of type 'void'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2078: too many initializers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(173) : error C2182: 'FreeSocketContextList' : illegal use of type 'void'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(200) : error C2143: syntax error : missing ';' before '*'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(200) : error C2501: 'gLayerInfo' : missing storage-class or type specifiers
+sockinfo.cpp
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2143: syntax error : missing ';' before '*'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2501: 'PROVIDER' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2501: 'Provider' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(74) : error C2065: 'PROVIDER' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(74) : error C2065: 'lspProvider' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(75) : error C2062: type 'int' unexpected
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(157) : error C2061: syntax error : identifier 'PROVIDER'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(165) : error C2065: 'Provider' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2065: 'Context' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2275: 'SOCKET_CONTEXT' : illegal use of this type as an expression
+        H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(58) : see declaration of 'SOCKET_CONTEXT'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2182: 'FreeSocketContext' : illegal use of type 'void'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2078: too many initializers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(173) : error C2182: 'FreeSocketContextList' : illegal use of type 'void'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(200) : error C2143: syntax error : missing ';' before '*'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(200) : error C2501: 'gLayerInfo' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(46) : error C2228: left of '.ProviderCritSec' must have class/struct/union type
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(48) : error C2228: left of '.SocketList' must have class/struct/union type
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(48) : error C2228: left of '.Flink' must have class/struct/union type
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(49) : error C2228: left of '.SocketList' must have class/struct/union type
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(60) : error C2065: 'RemoveEntryList' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(66) : error C2228: left of '.ProviderCritSec' must have class/struct/union type
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(95) : error C2061: syntax error : identifier 'PROVIDER'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(102) : error C2065: 'LspAlloc' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(105) : error C2065: 'lpErrno' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(108) : error C2065: 'dbgprint' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(108) : error C2100: illegal indirection
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(112) : error C2065: 'Socket' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(113) : error C2039: 'Provider' : is not a member of '_SOCKET_CONTEXT'
+        H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(45) : see declaration of '_SOCKET_CONTEXT'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(116) : error C2227: left of '->ProviderCritSec' must point to class/struct/union
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(118) : error C2065: 'InsertHeadList' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(118) : error C2227: left of '->SocketList' must point to class/struct/union
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(120) : error C2227: left of '->ProviderCritSec' must point to class/struct/union
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(139) : error C2275: 'SOCKET_CONTEXT' : illegal use of this type as an expression
+        H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(58) : see declaration of 'SOCKET_CONTEXT'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(140) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(162) : error C2065: 'provider' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\sockinfo.cpp(163) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+spi.cpp
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2143: syntax error : missing ';' before '*'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2501: 'PROVIDER' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(47) : error C2501: 'Provider' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(74) : error C2065: 'PROVIDER' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(74) : error C2065: 'lspProvider' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(75) : error C2062: type 'int' unexpected
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(157) : error C2061: syntax error : identifier 'PROVIDER'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(165) : error C2065: 'Provider' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2065: 'Context' : undeclared identifier
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2275: 'SOCKET_CONTEXT' : illegal use of this type as an expression
+        H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(58) : see declaration of 'SOCKET_CONTEXT'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2182: 'FreeSocketContext' : illegal use of type 'void'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(167) : error C2078: too many initializers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(173) : error C2182: 'FreeSocketContextList' : illegal use of type 'void'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(200) : error C2143: syntax error : missing ';' before '*'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\lspdef.h(200) : error C2501: 'gLayerInfo' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\spi.cpp(47) : error C2146: syntax error : missing ';' before identifier 'gLayerInfo'
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\spi.cpp(47) : error C2501: 'LPPROVIDER' : missing storage-class or type specifiers
+H:\WinSock LSP Sample\lspSample\lsp\ifslsp\spi.cpp(47) : fatal error C1004: unexpected end of file found
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+spi.exe - 97 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

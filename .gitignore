@@ -5,5 +5,8 @@ obj
 *.so
 *.a
 *.exe
+*.tar.gz
+*.zip
+*.rar
 lib
 libs

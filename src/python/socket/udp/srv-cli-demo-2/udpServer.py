@@ -2,12 +2,15 @@ from socket import *
 from time import ctime
 
 HOST = ''
-PORT = 20123
+# convert to network port
+PORT = htons(514)
+#PORT = 20123
 BUFSIZ = 128
 ADDR = (HOST, PORT)
 
 udpServer = socket(AF_INET, SOCK_DGRAM)
-
+# port reuse
+udpServer.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)
 udpServer.bind(ADDR)
 
 while True:

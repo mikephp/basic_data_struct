@@ -9,7 +9,7 @@ BUFSIZ = 128
 ADDR = (HOST, PORT)
 
 udpServer = socket(AF_INET, SOCK_DGRAM)
-# port reuse
+# socket address reuse
 udpServer.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)
 udpServer.bind(ADDR)
 
